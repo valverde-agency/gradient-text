@@ -1,0 +1,31 @@
+#background {
+  animation: sTransition 10s linear infinite;
+  background: linear-gradient(
+    to right,
+    rgb(0, 146, 69),
+    rgb(0, 136, 134),
+    rgb(0, 91, 255),
+    rgb(101, 33, 243),
+    rgb(101, 33, 243),
+    rgb(0, 91, 255),
+    rgb(0, 136, 134),
+    rgb(0, 146, 69)
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  color: rgba(255, 255, 255, 0.1);
+  font-weight: 900;
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+@keyframes sTransition {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
